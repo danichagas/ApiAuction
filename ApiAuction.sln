@@ -7,9 +7,24 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{617F5C5E-1E52-4E27-9B88-A500FCC19EB9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiAuction.API", "src\ApiAuction.API\ApiAuction.API.csproj", "{9AE8E103-4496-43E6-A220-2C8E3890073D}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9AE8E103-4496-43E6-A220-2C8E3890073D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AE8E103-4496-43E6-A220-2C8E3890073D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AE8E103-4496-43E6-A220-2C8E3890073D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AE8E103-4496-43E6-A220-2C8E3890073D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9AE8E103-4496-43E6-A220-2C8E3890073D} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {97E5A525-1169-452A-B625-E14E0228404A}
